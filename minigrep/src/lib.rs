@@ -2,7 +2,7 @@ use std::env;
 use std::fs;
 use std::error::Error;
 
-
+//TODO investigate how to add additional option like -n to numerate the lines 
 pub struct Config{
     pub query:String,
     pub file_path: String,
